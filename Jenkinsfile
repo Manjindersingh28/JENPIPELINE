@@ -67,7 +67,7 @@ pipeline {
                     subject: "Pipeline Success",
                     body: "Pipeline ran successfully",
                     to: 'mani28au@gmail.com',
-                    attachlog: true
+                    attachLog: true
                     )
         }
         failure {
@@ -75,7 +75,7 @@ pipeline {
                     subject: "Pipeline Failure",
                     body: "Pipeline failed to run",
                     to: 'mani28au@gmail.com',
-                    attachlog: true
+                    attachLog: true
             )
         }
     }
