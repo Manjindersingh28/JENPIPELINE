@@ -73,7 +73,7 @@ pipeline {
         failure {
             emailext(
                     subject: "Pipeline Failure",
-                    body: "Pipeline failed to run"
+                    body: "Pipeline failed to run",
                     to: 'mani28au@gmail.com',
                     attachlog: true
             )
